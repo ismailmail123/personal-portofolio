@@ -1,0 +1,104 @@
+*{
+    font-family: "Madimi one";
+}
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    position: fixed;
+    width: 100%;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    gap: 1rem;
+
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-link.active {
+    border-bottom: 2px solid blue;
+    color: #9e98f6;
+    
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+#home{
+    background-image: linear-gradient(90deg, rgba(160,214,218,1) 0%, rgba(146,150,212,1) 100%);
+}
+.home-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+}
+.home-text > h1{
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 6px solid whitesmoke;
+    animation: berjalan 3s steps(8, end), berkedip 0.5s ease infinite;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+}
+.btn1 {
+    background-color: dimgray;
+    border-radius: 5px;
+}
+.btn2 {
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.btn1:hover {
+    background-color: #a0d6da;
+    border-radius: 5px;
+}
+.btn2:hover {
+    background-color: #a0d6da;
+    border-radius: 5px;
+}
+
+@keyframes berjalan {
+    from {
+        width: 0;
+    }
+    to {
+        width: 25%;
+    }
+}
+@keyframes berkedip {
+    from {
+        border-color: transparent;
+    }
+    50% {
+        border-color: aqua;
+    }
+    to {
+        border-color: transparent;
+    }
+}
+
