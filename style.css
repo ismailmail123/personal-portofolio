@@ -11,8 +11,9 @@ body {
     background-color: rgb(218, 228, 248);
 }
 /*section start navbar */
-img{
-    width: 100%;
+.nav-img {
+    width: 80px;
+    height: 50px;
 }
 .navigation{
     display: flex;
@@ -30,11 +31,18 @@ header{
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
 }
-.logo {
-    width: 120px;
-    margin-top: -8px;
+.logo1{
+    display: flex;
+    align-items: center;
 }
-nav .logo{
+.logo1 > h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+    color:  #675cff;
+    font-size: 2rem;
+}
+nav .logo1{
     display: none;
 }
 nav ul {
@@ -94,7 +102,7 @@ nav ul li a.active {
     #nav_check:checked ~ nav {
         left: -6%;
     }
-    nav .logo{
+    nav .logo1{
         display: block;
         height: 70px;
         display: flex;
@@ -122,7 +130,7 @@ nav ul li a.active {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     width: 100%;
 }
 #home{
@@ -183,6 +191,40 @@ nav ul li a.active {
 .sosmed > a{
     color: black;
     padding: 0.5rem;
+}
+.home-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    border-radius: 50%;
+    border: #212526;
+    background-color: #b7d3d4;
+    box-shadow: 10px 10px 30px blue;
+    border: 2px solid rgb(73, 71, 189) ;
+    border-color: linear-gradient(90deg, rgba(160,214,218,1) 0%, rgba(146,150,212,1) 100%);
+}
+.image-section > img{
+    width: 130%;
+    border-radius: 50%;
+    margin-top: -50%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .home-image{
+        margin-top: 40%;
+        height: 30vh;
+    
+    }
+    .home-text{
+        margin-top: -5%;
+        height: 60vh;
+    }
 }
 
 @keyframes berjalan {
