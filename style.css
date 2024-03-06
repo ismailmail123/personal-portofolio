@@ -79,7 +79,7 @@ nav ul li a.active {
     margin: 6px 0;
     background: #212526;
 }
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 992px) {
     header{
         width: 90%;
         padding: 0 20px;
