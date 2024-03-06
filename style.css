@@ -52,14 +52,15 @@ nav ul li a{
     font-weight: 600;
     padding: 8px 18px;
     transition: 0.2s;
-    border-radius: 30px;
 }
 nav ul li a:hover{
     background: #d5d1e9;
+     border-radius: 5px;
 }
 nav ul li a.active {
-    background: #675cff;
-    color: #fff;
+    /* background: #675cff; */
+    border-bottom: #675cff solid;
+    /* color: #fff; */
 }
 .hamburger{
     display: none;
@@ -111,6 +112,10 @@ nav ul li a.active {
         margin-bottom: 5px;
         padding: 10px 15px;
         border-radius: 5px;
+    }
+    nav ul li a.active {
+        background: #675cff;
+        color: #fff;
     }
     nav ul {
         display: block;
@@ -213,9 +218,9 @@ nav ul li a.active {
     margin-top: -50%;
 }
 
-@media only screen and (max-width: 986px) {
+@media only screen and (max-width: 1100px) {
     .home-image{
-        margin-top: 30%;
+        margin-top: 28%;
         height: 30vh;
     
     }
@@ -234,6 +239,11 @@ nav ul li a.active {
         height: 100vh;
         padding: 1rem;
     } */
+}
+@media only screen and (max-width: 992px) {
+    .home-image{
+        margin-top: 35%;    
+    }
 }
 
 @keyframes berjalan {
