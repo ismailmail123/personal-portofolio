@@ -31,10 +31,7 @@ header{
     border-radius: 0 0 10px 10px;
     margin: 0 auto;
 }
-.logo1{
-    display: flex;
-    align-items: center;
-}
+
 .logo1 > h1 {
     margin: 0 auto;
     text-align: center;
@@ -42,7 +39,7 @@ header{
     color:  #675cff;
     font-size: 2rem;
 }
-nav .logo1{
+.logo1{
     display: none;
 }
 nav ul {
@@ -58,7 +55,7 @@ nav ul li a{
     border-radius: 30px;
 }
 nav ul li a:hover{
-    background: #f6f4ff;
+    background: #d5d1e9;
 }
 nav ul li a.active {
     background: #675cff;
@@ -73,7 +70,7 @@ nav ul li a.active {
     transition: 0.2s;
 }
 .hamburger:hover{
-    background-color: #f6f4ff;
+    background-color: #d5d1e9;
 }
 .hamburger div {
     width: 30px;
@@ -102,7 +99,7 @@ nav ul li a.active {
     #nav_check:checked ~ nav {
         left: -6%;
     }
-    nav .logo1{
+    .logo1{
         display: block;
         height: 70px;
         display: flex;
@@ -218,12 +215,12 @@ nav ul li a.active {
 
 @media only screen and (max-width: 986px) {
     .home-image{
-        margin-top: 20%;
+        margin-top: 30%;
         height: 30vh;
     
     }
     .home-text{
-        margin-top: -5%;
+        /* margin-top: -5%; */
         height: 40vh;
         width: 90%;
     }
