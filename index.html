@@ -10,6 +10,7 @@
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" 
     />
+    
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,10 +36,10 @@
                             <a class="nav-link" onclick="setActive(1)" href="#about">About</a>
                         </li>
                         <li>
-                            <a class="nav-link" onclick="setActive(2)" href="#">Project</a>
+                            <a class="nav-link" onclick="setActive(2)" href="#resume">Resume</a>
                         </li>
                         <li>
-                            <a class="nav-link" onclick="setActive(3)" href="#">Contac</a>
+                            <a class="nav-link" onclick="setActive(3)" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -56,12 +57,11 @@
                         <h1>Hello ! i'm Ismail</h1>
                         <p>a freelance sofwer engineer specialized in
                             both 
-                            <strong>front-end</strong>
+                            <strong style="color: blue;">front-end</strong>
                             and
-                            <strong>back-end</strong>
+                            <strong style="color: blue;">back-end</strong>
                         </p>
                         <div class="button-div">
-                            <button class="btn1">Hire me</button>
                             <button class="btn2">Resume</button>
                             
                         </div>
@@ -92,30 +92,263 @@
                 </div>
             </div>
         </section>
-        <section>
-            <div id="about">
-                <h1>About me</h1>
-                <div class="about-container">
-                    <div class="about-image">
-                        <img src="./asset/photo.png" alt="">
-                    </div>
-                    <div class="about-text">
-                        <p>Selamat datang di Website saya!
+        <section id="about">
+            <div class="about">
+                <div class="about-tittle">
+                    <h1>About me</h1>
+                    <div></div>
+                </div>
+                
+                <div class="about-text">
+                    <p>Welcome to my Website!
     
-                            Saya sangat senang bisa menyambut Anda di sini dan berbagi sedikit tentang diri saya. Saya adalah Ismail, 
-                            seorang Fullstack web developer. Dengan website ini, saya berusaha untuk menciptakan sebuah ruang di mana saya dapat 
-                            berbagi pemikiran, karya, dan petualangan hidup saya.
+                        I'm so happy to welcome you here and share a little about myself. I am Ismail,
+                        a Fullstack web developer. With this website, I am trying to create a space where I can
+                        share my thoughts, works and life adventures.
                             
-                            Terima kasih telah mengunjungi website saya. Saya berharap Anda menikmati isi yang saya bagikan di sini, 
-                            dan jangan ragu untuk menghubungi saya melalui halaman kontak jika Anda memiliki pertanyaan atau suatu kepentingan.
-                          </p>
+                        Thank you for visiting my website. I hope you enjoy the content I share here,
+                        and feel free to contact me via the contact page if you have any questions or concerns.
+                        </p>
+                </div>
+                    <div class="about-tittle">
+                        <h1>What I do !</h1>
+                    </div>
+                <div class="container-i-do">
+                    <div class="row-i-do">
+                        <div class="card-i-do">
+                            <h1>
+                                <img src="./asset/code icon.png" >
+                                Web Deplopment
+                            </h1>
+                            <p>
+                                As a developer, I find myself most 
+                                captivated by the power and flexibility of 
+                                NEXT.js. I'm always eager to dive into new
+                                projects that leverage NEXT.js and 
+                                discover innovative ways to create fast, 
+                                scalable, and user-friendly applications.
+                            </p>
+                        </div>
+                        <div class="card-i-do">
+                            <h1>
+                                <i style="color: yellowgreen;" class="fa-brands fa-instagram"></i>
+                                App Deplopment
+                            </h1>
+                            <p>
+                                With a focus on user-centric design and
+                                cutting-edge technologies, I thrive on 
+                                building intuitive and efficient apps 
+                                that make a positive impact on people's 
+                                lives. Let's turn ideas into reality and 
+                                shape the future together.
+                            </p>
+                        </div>
+                        <div class="card-i-do">
+                            <h1>
+                                <img src="./asset/ux icon.png">
+                                UI/UX Designing
+                            </h1>
+                            <p>
+                                With a focus on user-centric design and
+                                cutting-edge technologies, I thrive on 
+                                building intuitive and efficient apps 
+                                that make a positive impact on people's 
+                                lives. Let's turn ideas into reality and 
+                                shape the future together.
+                            </p>
+                        </div>
+                        <div class="card-i-do">
+                            <h1>
+                                <img src="./asset/Vector (1).png">
+                                Mentorship
+                            </h1>
+                            <p>
+                                I have also found great joy in sharing my 
+                                knowledge with others. Being a technical 
+                                mentor allows me to give back to the 
+                                community that has supported me 
+                                throughout my career. 
+                            </p>
+                        </div>
                     </div>
                 </div>
                 
-                
             </div>
+        </section>
+        <section id="resume">
+            <div class="about-tittle">
+                <h1>Resume</h1>
+                <div></div>
+            </div>
+        <div class="container-resume">
+            <h3>
+                <img src="./asset/icon-park-outline_degree-hat.png" >
+                Education
+            </h3>
+            <div class="row-i-do">
+                    
+                    <div class="card-i-do">
+                    
+                        <p>2023</p>
+                        <img class="img-skill" src="./asset/Screenshot (1165).png" alt="">
+                        <h4>Sofwer Enginering Front-end Devloper</h4>
+                        <h6>Binar Academy</h6>
+                    </div>
+                    <div class="card-i-do">
+                    
+                        <p>2024</p>
+                        <img class="img-skill" src="./asset/Screenshot (1166).png" alt="">
+                        <h4>Sofwer Enginering Fullstack Web Devloper</h4>
+                        <h6>Harisenin.com</h6>
+                    </div>
+             </div>
+        </div>
+        <div class="container-resume">
+            <div class="row-skill">
+                 
+                    <div class="card-skill">
+                        <h3>
+                            Work Skill
+                        </h3>
+                        <div class="content-skill">
+                            <span>
+                                <button >React.js</button>
+                            </span>
+                            <span>
+                                <button>Next.js</button>
+                            </span>
+                            <span>
+                                <button>Javascript</button>
+                            </span>
+                            <span>
+                                <button>HTML 5</button>
+                            </span>
+                            <span>
+                                <button>CSS</button>
+                            </span>
+                            <span>
+                                <button>Bootstrap css</button>
+                            </span>
+                            <span>
+                                <button>Git</button>
+                            </span>
+                        </div>
+                        
+                    </div>
+                    <div class="card-skill">
+                        <h3>
+                            Soft Skill
+                        </h3>
+                        <div class="content-skill">
+                            <span>
+                                <button>Time Management</button>
+                            </span>
+                            <span>
+                                <button>Impeccable Communication</button>
+                            </span>
+                            <span>
+                                <button>Flexibility</button>
+                            </span>
+                            <span>
+                                <button>Research</button>
+                            </span>
+                            <span>
+                                <button>Writing</button>
+                            </span>
+                        </div>
+                    </div>
+             </div>
+        </section>
+        <section id="contact">
+            <div class="contact">
+                <div class="about-tittle">
+                    <h1>Contact</h1>
+                    <div></div>
+                </div>
+                <div class="container-i-do">
+                    <div class="row-i-do">
+                        <div class="card-i-do">
+                            <h3>
+                                <img src="./asset/Phone.png" >
+                                Phone
+                            </h3>
+                            <p>
+                                +6285342545607
+                            </p>
+                            <p>
+                                +6285342545607
+                            </p>
+                        </div>
+                        <div class="card-i-do">
+                            <h3>
+                                <img src="./asset/fluent-emoji-high-contrast_e-mail.png" >
+                                Email
+                            </h3>
+                            <p>
+                                ismailbary2@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-contact">
+                    <p>
+                        I am always open to discussing new projects, opportunities in tech world,
+                        partnerships and more so mentorship. 
+                    </p>
+                    <form class="form-input">
+                        <label for="name">Name :</label>
+                        <input type="text" id="name">
+                        <label for="email">Email :</label>
+                        <input type="email" id="email">
+                        <label for="message">Message :</label>
+                        <textarea style="height: 5rem;" id="message"></textarea>
+                        <button class="btn-input" >Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <footer>
+                <div>
+                    <div class="container-footer">
+                        <h3>Sosial Media</h3>
+                        <div class="sosmed-icon">
+                        <a href="">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        </div>
+                    </div>
+                    <div class="container-footer">
+                        <h3>Contact</h3>
+                        <p>Phone : +6285342545607</p>
+                        <p>Email : ismailbary2@gmail.com</p>
+                    </div>
+                    <div class="container-footer">
+                        <h3>Layanan</h3>
+                        website creation services
+                    </div>
+                    <div class="container-footer">
+                        <h3>Others</h3>
+                        <p>website creation promo</p>
+                        <p>Free hosting</p>
+                    </div>
+                </div>
+            </footer>
         </section>
     </main>
     <script src="index.js"></script>
+
 </body>
 </html>
