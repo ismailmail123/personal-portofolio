@@ -171,7 +171,7 @@ nav ul li a.active {
 .btn2 {
     background-color: whitesmoke;
     border-radius: 20px;
-    width: 75%;
+    width: 200px;
     padding: 5px;
 }
 .btn2:hover {
