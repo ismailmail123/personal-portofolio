@@ -265,6 +265,13 @@ nav ul li a.active {
     .home-image{
         margin-top: 35%;    
     }
+    .home-text{
+        width: 100%;
+        /* padding: 1rem; */
+    }
+    .text-area{
+        width: 85%;
+    }
 }
 
 @keyframes berjalan {
@@ -354,6 +361,16 @@ nav ul li a.active {
     width: 100%;
     border-radius: 5px;
  }
+ @media only screen and (max-width: 992px){
+.about {
+    margin: 0 3rem;
+    }
+ }
+ @media only screen and (max-width: 576px){
+    .about {
+        margin: 0 2rem;
+        }
+     }
   /* end section about */
   /* start resume */
  #resume{
@@ -393,6 +410,16 @@ nav ul li a.active {
     border: none;
 
  }
+ @media only screen and (max-width: 992px){
+    #resume {
+        margin: 0 3rem;
+    }
+ }
+ @media only screen and (max-width: 576px){
+    #resume {
+        margin: 0 2rem;
+    }
+ }
  /* end resume */
  /* start contact */
  #contact{
@@ -426,6 +453,16 @@ nav ul li a.active {
  }
  .btn-input:hover{
     background: rgb(218, 228, 248);
+ }
+ @media only screen and (max-width: 992px){
+    .contact {
+        margin: 0 3rem;
+    }
+ }
+ @media only screen and (max-width: 576px){
+    .contact {
+        margin: 0 2rem;
+    }
  }
  /* end contact */
  /* start footer */
